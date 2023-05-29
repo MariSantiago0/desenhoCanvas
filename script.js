@@ -9,29 +9,61 @@ ctx.fillRect(0, canvas.height - 170, canvas.width, 170);
 ctx.strokeStyle="brown";
 ctx.stroke();
 
+// linha do chão
+ctx.fillRect(0, canvas.height - 140, canvas.width, 170);
+ctx.strokeStyle="white";
+ctx.lineWidth= 10;
+ctx.stroke();
+
 // Primeiro tubo
 ctx.fillStyle="seagreen";
-ctx.fillRect(580,400, 70,90);
+ctx.fillRect(580,695, 70,90);
 ctx.strokeStyle="green";
+ctx.stroke();
+
+// brilho claro - parte 1
+ctx.fillStyle="lime";
+ctx.fillRect(635,695,15,90);
+ctx.strokeStyle="white";
 ctx.stroke();
 
 // Borda do primeiro tubo
 ctx.fillStyle="seagreen";
-ctx.fillRect(555,400,120,30);
+ctx.fillRect(555,695,120,30);
 ctx.strokeStyle="green";
 ctx.stroke();
 
+// brilho claro - parte 2
+ctx.fillStyle="lime";
+ctx.fillRect(660,695,15,30);
+ctx.strokeStyle="white";
+ctx.stroke();
+
+
 // Segundo tubo
 ctx.fillStyle="seagreen";
-ctx.fillRect(850,350, 120,150);
+ctx.fillRect(850,650, 120,150);
 ctx.strokeStyle="green";
+ctx.stroke();
+
+// brilho claro - parte 1
+ctx.fillStyle="lime";
+ctx.fillRect(965,670,15,130);
+ctx.strokeStyle="white";
 ctx.stroke();
 
 // Borda do segundo tubo
 ctx.fillStyle="seagreen";
-ctx.fillRect(810,350,195,35);
+ctx.fillRect(810,635,200,35);
 ctx.strokeStyle="green";
 ctx.stroke();
+
+// brilho claro - parte 2
+ctx.fillStyle="lime";
+ctx.fillRect(1000,635,15,35);
+ctx.strokeStyle="white";
+ctx.stroke();
+
 
 // Função para desenhar um retângulo com cantos arredondados
 function roundRect(ctx, x, y, width, height, radius) {
@@ -110,7 +142,7 @@ ctx.stroke();
 ctx.fillStyle = "green";
 ctx.strokeStyle = "green";
 ctx.beginPath();
-ctx.arc(1200, 480, 50, 0, Math.PI*2/2, true);
+ctx.arc(1200, 800, 50, 0, Math.PI*2/2, true);
 ctx.fill();
 ctx.stroke();
 
@@ -118,7 +150,7 @@ ctx.stroke();
 ctx.fillStyle = "green";
 ctx.strokeStyle = "green";
 ctx.beginPath();
-ctx.arc(190, 480, 40, 0, Math.PI*2/2, true);
+ctx.arc(190, 800, 40, 0, Math.PI*2/2, true);
 ctx.fill();
 ctx.stroke();
 
@@ -126,10 +158,9 @@ ctx.stroke();
 ctx.fillStyle = "green";
 ctx.strokeStyle = "green";
 ctx.beginPath();
-ctx.arc(230, 480, 60, 0, Math.PI*2/2, true);
+ctx.arc(230, 800, 60, 0, Math.PI*2/2, true);
 ctx.fill();
 ctx.stroke();
-
 
 
 
