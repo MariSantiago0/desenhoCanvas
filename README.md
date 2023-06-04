@@ -3,13 +3,13 @@
 <img src="imgs/whole.png">
 <br>
 <h2> Blocos de interrogação </h2>
-<p> Para fazer o bloco de interrogação foi utilizado o código fillRect(), e ajustando suas coordenadas e cores até chegar o mais próximo do original.<br> </p>
+<p> Para fazer o bloco de interrogação foi utilizado o código fillRect(), e ajustando suas coordenadas e cores até chegar o mais próximo do original. Foram necessárias 3 camadas, 1° foi apenas a cor amarela e o contorno preto, a 2° foi o detalhe de ouro nas bordas e o 3° foi o sinal de interrogação. <br> </p>
 <img src="imgs/sinal.png">
 <h2> Blocos de moedas </h2>
-<p> Assim como o anterior, o código predominante foi o fillRect e o modificando esteticamente. <br> </p>
+<p> Assim como o anterior, o código predominante foi o fillRect e o modificando esteticamente.E foram necessárias apenas 2 camadas, 1° com a cor e a 2° os detalhes nos cantos. <br> </p>
 <img src="imgs/quatro.png">
 <h2> Canos </h2>
-<p> Os canos também teve como prioridade o código fillRect. <br> </p>
+<p> Os canos também teve como prioridade o código fillRect. E para o brilho, foi necessário criar outro fillRect() com a lagura menor e destacar o canto dos canos. <br> </p>
 <img src="imgs/tubos.png">
 <h2> Nuvem </h2>
 <p> Para criar a nuvem, foi utilizado o código arc, e em vez de multiplicar o valor de Math.PI por 2, ele foi dividido. Isso permite que a curva seja desenhada apenas até a metade do círculo, resultando em uma forma reta na parte inferior da nuvem. <br></p>
