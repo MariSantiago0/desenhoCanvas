@@ -9,7 +9,7 @@
 <p> Assim como o anterior, o código predominante foi o fillRect e o modificando esteticamente.E foram necessárias apenas 2 camadas, 1° com a cor e a 2° os detalhes nos cantos. <br> </p>
 <img src="imgs/quatro.png">
 <h2> Canos </h2>
-<p> Os canos também teve como prioridade o código fillRect. E para o brilho, foi necessário criar outro fillRect() com a lagura menor e destacar o canto dos canos. <br> </p>
+<p> Os canos também teve como prioridade o código fillRect. E para o brilho, foi necessário criar outro fillRect() com a lagura menor e cor clara para destacar o canto dos canos. <br> </p>
 <img src="imgs/tubos.png">
 <h2> Nuvem </h2>
 <p> Para criar a nuvem, foi utilizado o código arc, e em vez de multiplicar o valor de Math.PI por 2, ele foi dividido. Isso permite que a curva seja desenhada apenas até a metade do círculo, resultando em uma forma reta na parte inferior da nuvem. <br></p>
