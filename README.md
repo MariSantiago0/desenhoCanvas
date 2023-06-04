@@ -10,8 +10,17 @@
 <img src="imgs/quatro.png">
 <h2> Canos </h2>
 <p> Os canos também teve como prioridade o código fillRect. <br> </p>
-<img src=imgs/tubos.png">
-                        
+<img src="imgs/tubos.png">
+<h2> Nuvem </h2>
+<p> Para criar a nuvem, foi utilizado o código arc, e em vez de multiplicar o valor de Math.PI por 2, ele foi dividido. Isso permite que a curva seja desenhada apenas até a metade do círculo, resultando em uma forma reta na parte inferior da nuvem. <br></p>
+<img src="imgs/nuvem.png">
+<h2> Arbusto </h2>
+<p> Assim como o anterior, utilizei do mesmo código.<br> </p>
+<img src="imgs/arbusto.png">
+<h2> Chão </h2>
+<p> Para o chão foi necessário o código -> ctx.canvas.width = window.innerWidth;
+ctx.canvas.height = window.innerHeight; Ele foi utilizado para ajustar às dimensões da janela do navegador, permitindo assim que o desenho no <canvas> ocupe toda a área visível. <br> </p>
+<img src="imgs/floor.png">
 
 
 
